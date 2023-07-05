@@ -1,0 +1,19 @@
+.tablamaridaje{
+    background-color: map-get($tablaRyM, backcol );
+    font-size: map-get($tablaRyM , fonts );
+    font-family: map-get($tablaRyM, fontf );
+    text-align: map-get($tablaRyM , talign );
+    color: map-get($tablaRyM , colorletra);
+    padding: map-get($tablaRyM, pdd );
+    height: map-get($tablaRyM , alto );
+
+}
+
+.tablamaridaje{
+    th{
+        td{
+            border: 10px groove rgba(9, 65, 15, 0.881);
+            padding: 15px;        
+        }
+    }
+}
