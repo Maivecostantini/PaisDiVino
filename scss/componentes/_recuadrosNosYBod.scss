@@ -1,0 +1,9 @@
+.nosotros, .bodegas{
+    @extend %recuadros;
+}
+.imagenesnosotros, iframe{
+    height: 500px;
+    width: 700px;
+    border-radius: 5%;
+    opacity: 0.9;
+}
