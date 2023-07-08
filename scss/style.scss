@@ -26,11 +26,13 @@ main{
     h1{
         @include Titulos($fontsi*15, rgba(0, 0, 0, 0.766), 'Satisfy', 0px);
         display: flex;
+        flex-direction: row;
         justify-content: center;
         align-items: center;
         height: 350px;
     }
-    div{
+}
+    .index{
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
@@ -41,5 +43,4 @@ main{
             @include Titulos($fontsi*10,rgba(0, 0, 0, 0.766), 'Satisfy', 10px );
         }
     }
-}
 }

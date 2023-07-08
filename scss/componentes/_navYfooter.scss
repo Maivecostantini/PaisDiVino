@@ -4,6 +4,7 @@
     background-color: map-get($navyfooter , backcol);
     text-decoration: none;
     color: $color;
+    width: 100vw;
 }
 
 .footer{
@@ -11,7 +12,7 @@
     justify-content: space-around;
     align-items: center;
     position: relative;
-    top: map-get($navyfooter , position-rel );
+    top: 45px;
     width: 100vw;
     height: 100px;
     background-color: map-get($navyfooter , backcol );
@@ -24,6 +25,6 @@
 .prefooter{
     position: relative;
     top: 100px;
-    padding-bottom: $fontsi;
+    margin-bottom: $fontsi;
     height: $alto*15;
 }
