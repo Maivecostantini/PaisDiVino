@@ -1,10 +1,9 @@
 .barranav{
-    font-size: map-get($tablaRyM ,fonts);
+    font-size: map-get($navyfooter ,fonts);
     font-family: map-get($tablaRyM, fontf);
     background-color: map-get($navyfooter , backcol);
     text-decoration: none;
     color: $color;
-    width: 100vw;
 }
 
 .footer{

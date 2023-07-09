@@ -1,17 +1,17 @@
-.nosotros, .bodegas{
+.nosotros{
     @extend %recuadros;
+    overflow: scroll;
+}
+.bodegas{
+    @extend %recuadros;
+}
+.bod{
+    width: 75%;
 }
 .imagenesnosotros, iframe{
     height: 550px;
-    width: 100%;
     border-radius: 5%;
     opacity: 0.9;
-}
-.carrusel{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 600px;
 }
 .rese{
     height: auto;
