@@ -2,7 +2,7 @@
 .bodegas, .nosotros {
   font-size: 23px;
   color: darkgrey;
-  background-color: rgba(5, 5, 5, 0.573);
+  background-color: rgba(5, 5, 5, 0.722);
   border-radius: 5%;
   font-family: "Montserrat", sans-serif;
 }
@@ -57,7 +57,7 @@
 }
 
 .tablamaridaje {
-  background-color: rgba(0, 0, 0, 0.42);
+  background-color: rgba(0, 0, 0, 0.511);
   font-size: 25px;
   font-family: "Montserrat";
   text-align: center;
