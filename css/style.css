@@ -40,6 +40,7 @@
 
 .nosotros {
   overflow: scroll;
+  height: 550px;
 }
 
 .bod {
@@ -54,6 +55,7 @@
 
 iframe {
   margin-bottom: 25px;
+  height: 310px;
 }
 
 .rese {
